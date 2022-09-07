@@ -572,6 +572,18 @@ video {
   display: block;
 }
 
+.inline-block {
+  display: inline-block;
+}
+
+.inline {
+  display: inline;
+}
+
+.flex {
+  display: flex;
+}
+
 .h-12 {
   height: 3rem;
 }
@@ -582,6 +594,10 @@ video {
 
 .w-32 {
   width: 8rem;
+}
+
+.flex-1 {
+  flex: 1 1 0%;
 }
 
 .space-y-4 > :not([hidden]) ~ :not([hidden]) {
