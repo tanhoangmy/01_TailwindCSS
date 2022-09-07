@@ -1,5 +1,10 @@
 ### Taidwind CSS Tutorial
 
+##### Run application
+```
+$npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
+```
+
 ##### Cài đặt ban đầu
 https://tailwindcss.com/docs/installation
 
