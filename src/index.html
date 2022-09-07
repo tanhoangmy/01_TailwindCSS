@@ -9,18 +9,41 @@
 </head>
 
 <body>
-    <!-- Prototype -->
-    <h1 class="">Font chữ lớn</h1>
-    <h1 class="">Font chữ đậm</h1>
-    <h1 class="">Khoảng cách giữa các từ</h1>
-    <h1 class="">Uppercase</h1>
-    <div class="">Nguyen Duc My: Software Developer</div>
+    <!-- Prototype : https://tailwindcss.com/docs/font-size -->
+    <h1 class="text-xl">Font chữ lớn</h1>
+    <h1 class="font-bold">Font chữ đậm</h1>
+    <h1 class="tracking-widest">Khoảng cách giữa các từ</h1>
+    <h1 class="uppercase">font chữ hoa</h1>
+    <div class="leading-9
+    text-center
+    text-red-700
+     bg-red-500
+     w-1/2
+     h-1/2
+     p-5
+     my-10
+     border-t-2
+     border-solid
+     border-green-500
+     opacity-40
+     shadow-2xl
+    ">Nguyen Duc My: Software Developer</div>
+
+    <!-- focus pseudo class -->
+    <input class="
+        border
+        focus:border-red-500
+        focus:outline-none
+        p-5
+        m-5
+        placeholder-red-600
+    " type="text" name="" value="" placeholder="name">
 
     <!-- Layout -->
-    <div class="">
-        <div class="">Cột bên trái</div>
-        <div class="">Cột ở giữa</div>
-        <div class="">Cột phải</div>
+    <div class="md:flex md:flex-wrap m-5">
+        <div class="bg-blue-500 p-5 md:w-1/3">Cột bên trái</div>
+        <div class="bg-teal-500 p-5 md:w-1/3 ">Cột ở giữa</div>
+        <div class="bg-yellow-500 p-5 md:w-1/3 ">Cột bên phải</div>
     </div>
 
 </body>
