@@ -551,6 +551,18 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.float-right {
+  float: right;
+}
+
+.float-left {
+  float: left;
+}
+
+.float-none {
+  float: none;
+}
+
 .m-4 {
   margin: 1rem;
 }
@@ -558,6 +570,11 @@ video {
 .mx-16 {
   margin-left: 4rem;
   margin-right: 4rem;
+}
+
+.mx-10 {
+  margin-left: 2.5rem;
+  margin-right: 2.5rem;
 }
 
 .mb-1 {
@@ -665,6 +682,10 @@ video {
   text-align: center;
 }
 
+.text-justify {
+  text-align: justify;
+}
+
 .text-5xl {
   font-size: 3rem;
   line-height: 1;
@@ -689,6 +710,10 @@ video {
   font-weight: 500;
 }
 
+.font-bold {
+  font-weight: 700;
+}
+
 .leading-5 {
   line-height: 1.25rem;
 }
@@ -701,4 +726,26 @@ video {
 .text-red-500 {
   --tw-text-opacity: 1;
   color: rgb(239 68 68 / var(--tw-text-opacity));
+}
+
+@media (min-width: 640px) {
+  .sm\:float-right {
+    float: right;
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:float-right {
+    float: right;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:float-right {
+    float: right;
+  }
+
+  .xl\:float-left {
+    float: left;
+  }
 }
